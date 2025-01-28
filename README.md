@@ -1,3 +1,6 @@
+# Forked Notes
+- Updated to enable logging, removed the hard coded logging settings
+
 # Planka
 #### Elegant open source project tracking.
 
