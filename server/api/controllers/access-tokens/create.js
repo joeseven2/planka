@@ -86,6 +86,9 @@ module.exports = {
         : Errors.INVALID_CREDENTIALS;
     }
 
+    sails.log.info(`Successful login for user: ${user.email} (IP: ${remoteAddress})`);
+
+
     const { token: accessToken, payload: accessTokenPayload } = sails.helpers.utils.createJwtToken(
       user.id,
     );
